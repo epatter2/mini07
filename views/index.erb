@@ -1,0 +1,9 @@
+<ul>
+<% @links.each do |link| %>
+ <li>
+   <p><%= link.email %> <%= link.name %> <%= link.comment %></p>
+</li>
+<% end %>
+</ul>
+
+<p><a href="/create">Add Link</a></p>
